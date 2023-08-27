@@ -46,13 +46,6 @@ int main()
     buffer = getText(loc, file_number);
   }
 
-//wcout << L"------------------------------\n" 
-//         L"Palavras no mapa:" << endl;
-//for(const auto &word : mp) {
-//  wcout << word.f << L": " << word.s << endl;
-//}
-//wcout << L"------------------------------" << endl;
-
   // Search for K most frequent words
   // (K is defined by HEAP_SIZE)
 
@@ -84,7 +77,7 @@ int main()
   auto stop = chrono::high_resolution_clock::now();
   auto duration = chrono::duration_cast<chrono::milliseconds>
     (stop - start);
-  wcout << '\n' << duration.count() << " ms" << endl;
+  wcout << L'\n' << duration.count() << " ms" << endl;
 
   return 0;
 }

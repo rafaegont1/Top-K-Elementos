@@ -260,6 +260,8 @@ dias: 443
 agora: 476
 nada: 454
 bem: 475
+
+446 ms
 ```
 
 Assim, o _heap_ ficou da seguinte forma:
@@ -299,6 +301,8 @@ Conforme discorrido anteriormente, os filhos de cada nó, em um _max heap_, são
  526 573 537 612
  / \ / \ / \ / \
 ```
+
+O exemplo aqui exposto foi compilado com o GNU Compiler Collection (gcc) versão 4:10.2.1-1, no sistema operacional Debian 11 (Bullseye). O computador possuia uma placa-mãe ASUS AM1M-A/BR, 8 GB de memória RAM DDR3 e um processador AMD Athlon 5150 (arquitetura x86_64).
 
 ## Conclusão
 
